@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 const Queue=require('../queue/Queue')
 const store=require('../../store')
-=======
-const Queue = require('../queue/Queue');
-const store = require('../../store');
->>>>>>> 273f1f038ee83cec0fc8ee35eb1397ee4d5bec35
 
 // Set up initial data.
 // --------------------
@@ -26,13 +21,7 @@ module.exports={
 
   },
   dequeue(type) {
-<<<<<<< HEAD
     if(type==='dogs') {return pets.dogs.dequeue()}
     return pets.cats.dequeue();
   }
 }
-=======
-    // Remove a pet from the queue.
-  },
-};
->>>>>>> 273f1f038ee83cec0fc8ee35eb1397ee4d5bec35
