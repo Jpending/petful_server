@@ -22,6 +22,9 @@ module.exports = {
     return pets.cats.all();
   },
   dequeue(type) {
-    // Remove a pet from the queue.
+    if (type === 'dogs') {
+      return pets.dogs.dequeue();
+    }
+    return pets.cats.dequeue();
   },
 };
