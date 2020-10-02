@@ -92,7 +92,7 @@ class Queue {
       //console.log(tempArray.join(','));
 
       // return the value
-      return tempArray.join(',');
+      return tempArray;
     }
   }
 }
