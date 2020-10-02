@@ -1,19 +1,10 @@
-module.exports = {
+module.exports={
   people: [
     'Randy Lahey',
     'Trevor Cory',
     'Jim Lahey',
-    'Leanne Graham',
-    'Glenna Reichert',
-    'Clementina DuBuque',
-    'Nicholas Runolfsdottir V',
-    'Kurtis Weissnat',
-    'Mrs. Dennis Schulist',
-    'Chelsey Dietrich',
     'Buhler',
-    'Buhler',
-    'Buhler',
-    'Patricia Lebsack',
+
   ],
   //
   dogs: [

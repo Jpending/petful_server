@@ -55,7 +55,7 @@ class Queue {
     // print
     this.all();
     // return node at front of queue
-    return node;
+    return node.value;
   }
 
   show() {
