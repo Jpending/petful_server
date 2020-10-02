@@ -2,7 +2,7 @@
   "name": "petful-server",
   "scripts": {
     "test": "mocha --require test/setup.js",
-    "start": "nodemon src/server.js",
+    "start": "nodemon server.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
