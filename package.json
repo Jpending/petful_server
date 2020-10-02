@@ -2,7 +2,7 @@
   "name": "petful-server",
   "scripts": {
     "test": "mocha --require test/setup.js",
-    "start": "nodemon src/server.js",
+    "start": "nodemon server.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
@@ -16,5 +16,9 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4",
     "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "prettier": "^2.1.2"
   }
 }
